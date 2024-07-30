@@ -15,6 +15,7 @@ RUN dnf -y install cvmfs
 RUN dnf -y install python3
 RUN dnf -y install python3-pip
 RUN dnf -y install tmux
+RUN dnf -y install git
 
 RUN chmod 755 /etc/ssh
 RUN chmod 655 /etc/ssh/*

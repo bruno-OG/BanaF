@@ -14,7 +14,6 @@ RUN dnf -y install https://ecsft.cern.ch/dist/cvmfs/cvmfs-release/cvmfs-release-
 RUN dnf -y install cvmfs
 RUN dnf -y install python3
 RUN dnf -y install python3-pip
-RUN dnf -y install vim
 RUN dnf -y install tmux
 
 RUN chmod 755 /etc/ssh

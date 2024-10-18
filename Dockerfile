@@ -34,4 +34,5 @@ RUN chmod 700 /home/test/.ssh
 RUN /usr/sbin/sshd -p 420 -h /etc/ssh/ssh_host_rsa_key
 EXPOSE 4020
 
-CMD ["/usr/sbin/sshd","-D" ,"-p" ,"4020" ,"-h" ,"/etc/ssh/ssh_host_rsa_key" ]
+CMD ["/usr/sbin/sshd","-D"]
+#CMD ["/usr/sbin/sshd","-D" ,"-p" ,"4020" ,"-h" ,"/etc/ssh/ssh_host_rsa_key" ]

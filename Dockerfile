@@ -1,4 +1,5 @@
 FROM nvcr.io/nvidia/cuda:12.9.0-cudnn-devel-rockylinux9
+ENV PATH=/usr/local/cuda/bin:$PATH
 
 # Get things from host system
 ARG UID

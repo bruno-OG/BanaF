@@ -1,4 +1,4 @@
-FROM 12.9.0-cudnn-devel-rockylinux9
+FROM nvcr.io/nvidia/cuda:12.9.0-cudnn-devel-rockylinux9
 
 # Get things from host system
 ARG UID
